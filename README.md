@@ -171,7 +171,7 @@ This completes the configuration.
 
 Now you can query your index and see data that looks similar to the below screenshot for validation.
 
-    ![](./images/picture14.png)
+    ![](./images/pic.png)
 
 ## OCI Logging to Splunk Architecture
 
