@@ -173,7 +173,7 @@ Now you can query your index and see data that looks similar to the below screen
 
     ![](./images/picture14.png)
 
-## Compartment Design Architecture
+## OCI Logging to Splunk Architecture
 
 ![](./images/oci-log-splunk-architecture.png)
 
