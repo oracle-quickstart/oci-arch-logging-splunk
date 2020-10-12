@@ -6,18 +6,18 @@ The architecture uses a multi-tier web application as a reference point while al
 
 ## Configuration
 
-### Step 1: Enabling an example service log in OCI Logging
+### Step 1: Enable an example service log in OCI Logging
 
-In Step 1, You will create a log group and configure an example using Virtual Cloud Network (VCN) Flow Logs.
+In this step, You will create a log group and configure an example log using Virtual Cloud Network (VCN) Flow Logs.
 
 Refer the screenshot and the points listed below to complete Step 1.
 
 ![](./images/picture1.png)
 
 
-*   Open the navigation menu on Oracle Cloud Infrastructure (OCI) console. Under Solutions and Platform, go to Logging, and click on Log Groups.
+*   Open the navigation menu on `Oracle Cloud Infrastructure (OCI)` console. Under `Solutions and Platform`, go to `Logging`, and click on `Log Groups`.
 
-*	Click Create Log Group
+*	Click `Create Log Group`
 
     - Choose the `Compartment` where you want to create log group
     - Choose a `Name` and `Description` that can properly identify your log group
@@ -30,14 +30,14 @@ Refer the screenshot and the points listed below to complete Step 1.
 
 *	Under `Select Resource`, under `Resource Compartment`, choose a compartment you have permission to work in.
 
-*	Select a service from the `Service` – For example: Virtual Cloud Network (subnet)
+*	Select a service from the `Service`. For example: Virtual Cloud Network (subnet)
 
 *	Select a resource:
-    - Under `Resource` select a subnet.
+    - Under `Resource`, select a subnet.
 
 *	Configure the log:
 
-    - In `Log Category` select a log category to specify the type of log to create. For this example you will select `Flow Logs (All records)`
+    - In `Log Category` select a log category to specify the type of log to create. For this example, you will select `Flow Logs (All records)`
 
 *	In `Log Name`, type a name for the log. For this example, name it as `test-flowlog`.
 
@@ -68,9 +68,9 @@ Refer the screenshot and the points listed below to complete Step 3 to create a 
 
 
 *	Open the `navigation menu`. Under `Logging`, click `Service Connectors`.
-*	Choose the Compartment where you want to create the service connector.
+*	Choose the `Compartment` where you want to create the service connector.
 *	Click `Create Connector`.
-*	On the Create Service Connector page, fill in the `settings` as noted below:
+*	On the `Create Service Connector` page, fill in the `settings` as noted below:
     - `Connector Name`: User-friendly name for the new service connector.
     - `Description`: Optional identifier.
     - `Resource Compartment`: The compartment where you want to store the new service connector.
@@ -89,6 +89,7 @@ If you do not have an inclusive IAM policy, you will see the following message:
 -   `Create default policy allowing this service connector to write to Streaming in compartment`
 
 To resolve this, click the `Create button` to the right, and it will automatically create a policy for you.
+
 To finish the creation click the `Create button` on the left.
 
 ### Step 4: Install the Plugin from Splunk Enterprise
@@ -103,26 +104,27 @@ Make sure you have a `splunk enterprise` account. On `splunk enterprise` dashboa
 
     ![](./images/picture5.png)
 
-*	Search for `OCI Logging`.
+*	Search for `OCI Logging Addon for Splunk`.
 *	Click `Install`.
 
     ![](./images/picture6.png)
 
-*	Enter your Splunk.com login credentials, accept the terms, and click `Login and Install`.
+*	Enter your `Splunk.com` login credentials, accept the terms, and click `Login and Install`.
 
     ![](./images/picture7.png)
 
 
 ### Step 5: Install the Plugin from Splunkbase
 
-Perform the below steps complete Step 5.
+Perform the below steps to complete Step 5.
 
-*	Go to Splunkbase - [Splunkbase](https://splunkbase.splunk.com/) and search for OCI Logging plugin on the top. Download the plugin from Splunkbase.
+*	Go to Splunkbase -> [Splunkbase](https://splunkbase.splunk.com/).and 
+*   Search for OCI Logging plugin on the top search bar. Download the plugin from Splunkbase.
 *	From the Splunk Web home screen, click the `gear icon` next to `Apps`.
 *	Click `Install app from file`.
 *	Locate the downloaded file and click `Upload`
 *	If Splunk Enterprise prompts you to restart, do so.
-*	Verify that the plugin appears in the list of apps and add-ons by clicking Apps > Manage Apps. You can also find it  on the server at $SPLUNK_HOME/etc/apps/TA-oci-logging-addon.
+*	Verify that the plugin appears in the list of apps and add-ons by clicking Apps -> Manage Apps. You can also find it  on the server at `$SPLUNK_HOME/etc/apps/TA-oci-logging-addon`.
 
     ![](./images/picture8.png)
 
@@ -152,8 +154,8 @@ Perform the below steps complete Step 6.
 
     - `Name`: Friendly name choice
     - `Interval`: How often you want the plugin to attempt to check for new data
-    - `Index`: Your Splunk index - recommended is 30 seconds
-    - `Stream ID`: The OCID of your OCI Stream
+    - `Index`: Your Splunk index - recommended is `30 seconds`
+    - `Stream ID`: The `OCID` of your OCI Stream
     - `Stream Endpoint`: For example, `https://cell-1.streaming.ap-chuncheon-1.oci.oraclecloud.com`
     - `OCI Region`: For example, `ap-chuncheon-1`
     - `Message Limit`: How many messages you want to retrieve with a single pull default - `10000`
