@@ -116,8 +116,8 @@ Make sure you have a `splunk enterprise` account. On `splunk enterprise` dashboa
 
 Perform the below steps to complete Step 5.
 
-*	Go to Splunkbase -> [Splunkbase](https://splunkbase.splunk.com/).and 
-*   Search for OCI Logging plugin on the top search bar. Download the plugin from Splunkbase.
+*	Go to Splunkbase -> [Splunkbase](https://splunkbase.splunk.com/)
+*   	Search for `OCI Logging plugin` on the top search bar. Download the plugin from Splunkbase.
 *	From the Splunk Web home screen, click the `gear icon` next to `Apps`.
 *	Click `Install app from file`.
 *	Locate the downloaded file and click `Upload`
