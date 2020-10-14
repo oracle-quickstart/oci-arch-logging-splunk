@@ -171,7 +171,7 @@ Now you can query your index and see data that looks similar to the below screen
 
    ![](./images/pic.png)
 
-## OCI Logging to Splunk Architecture
+## Implement a SIEM System in Splunk Using Logs Streamed from Oracle Cloud
 
 ![](./images/oci-log-splunk-architecture.png)
 
