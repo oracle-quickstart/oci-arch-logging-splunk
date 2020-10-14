@@ -178,4 +178,4 @@ Now you can query your index and see data that looks similar to the below screen
 
 ## Reference Archirecture
 
-- [Use Oracle Cloud Infrastructure native capabilities to build a security information and event management system to Splunk](https://docs.oracle.com/en/solutions/ha-web-app/index.html)
+- [Implement a SIEM System in Splunk Using Logs Streamed from Oracle Cloud](https://docs.oracle.com/en/solutions/ha-web-app/index.html)
