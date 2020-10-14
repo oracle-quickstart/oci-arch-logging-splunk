@@ -1,8 +1,6 @@
 # oci-arch-logging-splunk
 
-This reference architecture shows how to use compartments to design and configure different environments on Oracle Cloud Infrastructure and how to provision resources to support software development and the release life cycle. 
-
-The architecture uses a multi-tier web application as a reference point while allocating resources across different organizations within an enterprise to illustrate the implementation.
+A security information and event management (SIEM) system is a critical operations tool to manage the security of your cloud resources. Oracle Cloud Infrastructure (OCI) includes native threat detection, prevention, and response capabilities, which you can leverage to implement an efficient SIEM system using Splunk. Splunk Enterprise administrators can use the Logging and Streaming services with the Oracle Cloud Infrastructure Logging Addon for Splunk, to stream logs from resources in OCI to an existing or new Splunk environment. Administrators can also integrate with other Splunk plugins and data sources, such as threat intelligence feeds, to augment the generation of alerts based on log data.
 
 ## Configuration
 
@@ -171,7 +169,7 @@ This completes the configuration.
 
 Now you can query your index and see data that looks similar to the below screenshot for validation.
 
-    ![](./images/pic.png)
+   ![](./images/pic.png)
 
 ## OCI Logging to Splunk Architecture
 
