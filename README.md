@@ -173,7 +173,7 @@ Now you can query your index and see data that looks similar to the below screen
 
 ## Implement a SIEM System in Splunk Using Logs Streamed from Oracle Cloud
 
-![](./images/oci-log-splunk-architecture.png)
+![](./images/siem-logging-oci.png)
 
 
 ## Reference Archirecture
