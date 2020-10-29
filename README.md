@@ -178,4 +178,4 @@ Now you can query your index and see data that looks similar to the below screen
 
 ## Reference Archirecture
 
-- [Implement a SIEM System in Splunk Using Logs Streamed from Oracle Cloud](https://docs.oracle.com/en/solutions/logs-stream-splunk/index.html#GUID-8D87CAA4-CD41-4E90-A333-5B04E23DBFAA)
+- [Implement a SIEM System in Splunk Using Logs Streamed from Oracle Cloud](https://docs.oracle.com/en/solutions/logs-stream-splunk/index.html)
