@@ -102,7 +102,7 @@ Perform the below steps to complete Step 5.
 *	From the Splunk Web home screen, click the `gear icon` next to `Apps`.
 *	Click `Install app from file`.
 *	Locate the downloaded plugin file and click `Upload`
-*	If Splunk Enterprise prompts you to restart, do so.
+*	If Splunk prompts you to restart, do so.
 *	Verify that the plugin appears in the list of apps and add-ons by clicking Apps -> Manage Apps. You can also find it  on the server at `$SPLUNK_HOME/etc/apps/TA-oci-logging-addon`.
 
     ![](./images/picture8.png)
