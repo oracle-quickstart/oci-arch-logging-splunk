@@ -1,6 +1,8 @@
 # oci-arch-logging-splunk
 
-A security information and event management (SIEM) system is a critical operations tool to manage the security of your cloud resources. Oracle Cloud Infrastructure (OCI) includes native threat detection, prevention, and response capabilities, which you can leverage to implement an efficient SIEM system using Splunk. Splunk Enterprise administrators can use the Logging and Streaming services with the Oracle Cloud Infrastructure Logging Addon for Splunk, to stream logs from resources in OCI to an existing or new Splunk environment. Administrators can also integrate with other Splunk plugins and data sources, such as threat intelligence feeds, to augment the generation of alerts based on log data.
+A security information and event management (SIEM) system is a critical operations tool to manage the security of your cloud resources. Oracle Cloud Infrastructure includes native threat detection, prevention, and response capabilities, which you can leverage to implement an efficient SIEM system using Splunk.
+
+Splunk Enterprise administrators can use the Logging and Streaming services with the Logging Addon for Splunk, to stream logs from resources in the cloud to an existing or new Splunk environment. Administrators can also integrate with other Splunk plugins and data sources, such as threat intelligence feeds, to augment the generation of alerts based on log data.
 
 ## Configuration
 
