@@ -94,7 +94,7 @@ To finish the creation click the `Create button` on the left.
 
 ### Step 4: Download and Install the Plugin
 
-`NOTE: Before proceeding with next steps, please open a service request with Oracle or reach out to your account team to get the downloadable software of the plugin`
+`NOTE: Before proceeding with next steps, please open a service request with [Oracle Support](https://support.oracle.com/portal/) or reach out to your account team to get the downloadable software of the plugin`
 
 Perform the below steps to complete Step 5.
 
