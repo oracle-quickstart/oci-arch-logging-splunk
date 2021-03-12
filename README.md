@@ -96,7 +96,7 @@ To finish the creation click the `Create button` on the left.
 
 `NOTE: Before proceeding with next steps, please open a service request with` [Oracle Support](https://support.oracle.com/portal/) `or reach out to your account team to get the downloadable software of the plugin`
 
-Perform the below steps to complete Step 5.
+Perform the below steps to complete Step 4.
 
 *	Download the plugin provided by Oracle support team.
 *	From the Splunk Web home screen, click the `gear icon` next to `Apps`.
@@ -109,7 +109,7 @@ Perform the below steps to complete Step 5.
 
 ### Step 5: Configure the Plugin
 
-Perform the below steps complete Step 6.
+Perform the below steps complete Step 5.
 
 *	On `splunk enterprise`, From the `Apps` menu, select `OCI Logging Addon`.
 
