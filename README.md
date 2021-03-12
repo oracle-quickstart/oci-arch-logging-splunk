@@ -92,43 +92,22 @@ To resolve this, click the `Create button` to the right, and it will automatical
 
 To finish the creation click the `Create button` on the left.
 
-### Step 4: Install the Plugin from Splunk Enterprise
+### Step 4: Download and Install the Plugin
 
-Make sure you have a `splunk enterprise` account. On `splunk enterprise` dashboard, perform the steps as shown in the screenshots and the points listed below to complete Step 4.
-
-*	From the `Apps` menu at the top of the page, select `Manage Apps`.
-
-    ![](./images/picture4.png)
-
-*	Click `Browse more apps`.
-
-    ![](./images/picture5.png)
-
-*	Search for `OCI Logging Addon for Splunk`.
-*	Click `Install`.
-
-    ![](./images/picture6.png)
-
-*	Enter your `Splunk.com` login credentials, accept the terms, and click `Login and Install`.
-
-    ![](./images/picture7.png)
-
-
-### Step 5: Install the Plugin from Splunkbase
+`NOTE: Before proceeding with next steps, please open a service request with Oracle or reach out to your account team to get the downloadable software of the plugin`
 
 Perform the below steps to complete Step 5.
 
-*	Go to Splunkbase -> [Splunkbase](https://splunkbase.splunk.com/)
-*   	Search for `OCI Logging plugin` on the top search bar. Download the plugin from Splunkbase.
+*	Download the plugin provided by Oracle support team.
 *	From the Splunk Web home screen, click the `gear icon` next to `Apps`.
 *	Click `Install app from file`.
-*	Locate the downloaded file and click `Upload`
+*	Locate the downloaded plugin file and click `Upload`
 *	If Splunk Enterprise prompts you to restart, do so.
 *	Verify that the plugin appears in the list of apps and add-ons by clicking Apps -> Manage Apps. You can also find it  on the server at `$SPLUNK_HOME/etc/apps/TA-oci-logging-addon`.
 
     ![](./images/picture8.png)
 
-### Step 6: Configure the Plugin
+### Step 5: Configure the Plugin
 
 Perform the below steps complete Step 6.
 
