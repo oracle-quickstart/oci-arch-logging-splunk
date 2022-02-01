@@ -14,11 +14,11 @@ A security information and event management (SIEM) system is a critical operatio
 
 Splunk Enterprise administrators can use the Logging and Streaming services with the Logging Addon for Splunk, to stream logs from resources in the cloud to an existing or new Splunk environment. Administrators can also integrate with other Splunk plugins and data sources, such as threat intelligence feeds, to augment the generation of alerts based on log data.
 
-![OCI Logging Plugin for Splunk Architecture](images/Architecture.png)
+![OCI Logging Plugin for Splunk Architecture](./images/Architecture.png)
 
 ## <a name="oci-config"></a>OCI Configuration 
 ### Step 1: Create a Stream
-![OCI Stream Setup](images/picture_strm.png)
+![OCI Stream Setup](./images/picture_strm.png)
 
 Refer the screenshot and the points listed below to to create a stream for log data to be written to for Splunk to collect from.
 
@@ -32,7 +32,7 @@ Refer the screenshot and the points listed below to to create a stream for log d
 ### Step 2 (Optional): Enable a Service ex. VCN Flow Log
 
 In this step, You will create a log group and configure an example log using Virtual Cloud Network (VCN) Flow Logs.
-![Log Resource Setup](images/picture_log.png)
+![Log Resource Setup](./images/picture_log.png)
 
 Refer the screenshot and the points listed below to complete Step 1.
 
@@ -57,7 +57,7 @@ Refer the screenshot and the points listed below to complete Step 1.
 ### Step 3: Create a Service Connector in OCI Logging
 
 Refer the screenshot and the points listed below to complete Step 3 to create a Service Connector in OCI Logging.
-![Service Connector Setup](images/picture_sc.png)
+![Service Connector Setup](./images/picture_sc.png)
 
 1. Open the navigation menu. Under Logging, click **Service Connectors**.
 1. Choose the Compartment where you want to create the service connector.
@@ -127,7 +127,7 @@ Directions: https://docs.splunk.com/Documentation/AddOns/released/Overview/Singl
 1. Click on **OCI Logging**
 1. Click **New** *Refer the screenshot and the points listed below to complete Step 3*
 
-![Splunk OCI Logging Data Input](images/picture_splk.png)
+![Splunk OCI Logging Data Input](./images/picture_splk.png)
 
 4. Configure the stream specific information from the information under OCI Configuration or https://docs.oracle.com/en/solutions/logs-stream-splunk/index.html:
     - OCI Logging Stream
