@@ -171,7 +171,7 @@ Directions: https://docs.splunk.com/Documentation/AddOns/released/Overview/Singl
 ### **Splunk Version**: 8 or above
 ### **Deployment Models**: ###
 - Customer owned Splunk Heavy Forwarder running on-premises forwarding to
-    - Splunk on-premises (requires VPN or FastConnect)
+    - Splunk on-premises
     - Splunk Cloud
 - Customer owned Splunk Heavy Forwarder running on an OCI Compute Instance(Instance Principal authentications) forwarding to:
     - Splunk on-premises (requires VPN or FastConnect)
