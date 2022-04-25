@@ -178,6 +178,7 @@ Directions: https://docs.splunk.com/Documentation/AddOns/released/Overview/Singl
     - Splunk Cloud
 
 ## <a name="troubleshooting"></a>Troubleshooting
+- Ensure you have the current version of the OCI Logging Plugin: [2.2.2](https://objectstorage.us-phoenix-1.oraclecloud.com/n/pcainkar/b/Public_Files/o/oci_logging_addon%2Flatest.html)
 - When trying to install the plugin get following: **"Error connecting to /services/apps/local: The read operation timed out"** 
     - Please follow the instructions here [https://community.splunk.com/t5/All-Apps-and-Add-ons/install-add-on-Error-connecting-to-services-apps-local-The-read/m-p/490613](https://community.splunk.com/t5/All-Apps-and-Add-ons/install-add-on-Error-connecting-to-services-apps-local-The-read/m-p/490613)
         ```
