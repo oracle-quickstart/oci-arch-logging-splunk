@@ -14,6 +14,8 @@ A security information and event management (SIEM) system is a critical operatio
 
 Splunk Enterprise administrators can use the Logging and Streaming services with the Logging Addon for Splunk, to stream logs from resources in the cloud to an existing or new Splunk environment. Administrators can also integrate with other Splunk plugins and data sources, such as threat intelligence feeds, to augment the generation of alerts based on log data.
 
+With release 2.3.0 and above of the OCI Logging Plugin for Splunk, OCI Events sent directly to the OCI Stream will be written to Splunk.  This allows findings from Cloud Guard and DataSafe to be propgated into Splunk without being transformed into the OCI Log record format via an OCI Function.
+
 ![OCI Logging Plugin for Splunk Architecture](./images/Architecture.png)
 
 ## <a name="oci-config"></a>OCI Configuration 
@@ -178,7 +180,7 @@ Directions: https://docs.splunk.com/Documentation/AddOns/released/Overview/Singl
     - Splunk Cloud
 
 ## <a name="troubleshooting"></a>Troubleshooting
-- Ensure you have the current version of the OCI Logging Plugin: [2.2.3](https://objectstorage.us-phoenix-1.oraclecloud.com/n/pcainkar/b/Public_Files/o/latest.html)
+- Ensure you have the current version of the OCI Logging Plugin: [2.3.0](https://objectstorage.us-phoenix-1.oraclecloud.com/n/pcainkar/b/Public_Files/o/latest.html)
 - When trying to install the plugin get following: **"Error connecting to /services/apps/local: The read operation timed out"** 
     - Please follow the instructions here [https://community.splunk.com/t5/All-Apps-and-Add-ons/install-add-on-Error-connecting-to-services-apps-local-The-read/m-p/490613](https://community.splunk.com/t5/All-Apps-and-Add-ons/install-add-on-Error-connecting-to-services-apps-local-The-read/m-p/490613)
         ```
