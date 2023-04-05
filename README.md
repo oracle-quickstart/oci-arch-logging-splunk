@@ -1,5 +1,9 @@
 # oci-arch-logging-splunk
+**NOTE:** The OCI Logging Addon for Splunk project has been archived. Now, the repository is read-only and all issues, pull requests, code, labels, milestones, and such, also have become read-only. Contributors with access to the repository only can fork or star the project.
 
+Users can download the **OCI Logging Addon for Splunk** here: [https://splunkbase.splunk.com/app/5222](https://splunkbase.splunk.com/app/5222).
+
+This repository is now maintained here: [https://github.com/splunk/oci-arch-logging-splunk](https://github.com/splunk/oci-arch-logging-splunk).
 ## Table of Contents
 1. [Overview](#arch)
 1. [OCI Configuration](#oci-config)
